@@ -3,7 +3,7 @@ local Window = Library.CreateLib("      Rizzer 2.0                              
 
    -- MAIN
 local Main = Window:NewTab("The Rizzer")
-local MainSection = Main:NewSection("                     Note: Any Button You Click Will Be Said In Chat.")
+local MainSection = Main:NewSection("Note: Any Button You Click Will Be Said In Chat.")
 
     MainSection:NewButton("Do you have a Band-Aid? I just scraped my knee falling for you.", "", function()
    local message = "Do you have a Band-Aid? I just scraped my knee falling for you."
